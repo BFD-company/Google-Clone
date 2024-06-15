@@ -1,0 +1,151 @@
+* {
+    background: rgb(32,33,36);;
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 25px;
+    text-align: right;
+}
+
+header button {
+    background: #4c90ff;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main img {
+    width: 300px;
+}
+
+main #search {
+    border-radius: 50px;
+    border: 1px solid #5f6368;
+    width: 500px;
+    height: 40px;
+}
+
+main #search:hover {
+    border: 1px solid transparent;
+    background: rgb(70, 70, 70);
+    box-shadow: 0px 0px 5px 0.5px rgb(22, 22, 22);
+}
+
+main input {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 365px;
+    height: 40px;
+    outline: none;
+}
+
+a {
+    position: relative;
+    bottom: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 25px;
+    padding-left: 15px;
+}
+
+#Country {
+    position: absolute;
+    border-bottom: 1px solid #313335;
+    width: 95.8%;
+    background: #1f1f1f;
+    padding: 15px 30px;
+    font-size: 20px;
+    top: 85.6%;
+}
+
+#Info {
+    position: absolute;
+    width: 100%;
+    background: #1f1f1f;
+    height: 50px;
+    top: 92.9%;
+    font-size: 20px;
+}
+
+#Info a {
+    position: relative;
+    top: 15px;
+    padding-left: 30px;
+    background: transparent;
+}
+
+#projects {
+    position: relative;
+    bottom: 12px;
+}
+
+#account {
+    position: relative;
+    bottom: 3px;
+    width: 40px;
+}
+
+#search img {
+    position: relative;
+    top: 2px;
+    width: 15px;
+    background: none;
+}
+
+#searchbtns {
+    margin-top: 20px;
+}
+
+#searchbtns button {
+    background: #303134;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#searchbtns button:hover {
+    border: 1px solid gray;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#searchprojects {
+    position: fixed;
+    background: transparent;
+    top: 130px;
+    left: 400px;
+    width: 135px;
+}
+
+#searchprojects img {
+    width: 25px;
+    cursor: pointer;
+}
